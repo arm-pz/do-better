@@ -8,6 +8,7 @@ description: >-
   defend and revise, and a judge scores every match on a written rubric until
   one solution survives. Use when the user is not satisfied with an answer,
   calls it a bad answer, says try again or do better, says "arena", or asks to make them compete.
+version: 1.0.0
 argument-hint: "[--agents N | --quick] [--seed S] <task>"
 ---
 
