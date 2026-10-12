@@ -1,0 +1,10 @@
+{
+  "name": "do-better",
+  "version": "1.0.0",
+  "description": "When an answer is bad, runs a single-elimination tournament of sub-agents with different strategy cards until one solution survives.",
+  "author": {
+    "name": "Abdul Rahman P Z"
+  },
+  "homepage": "https://skills.caffeinity.com/do-better/",
+  "repository": "https://github.com/arm-pz/do-better"
+}
