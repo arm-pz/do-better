@@ -15,7 +15,13 @@ reports the truth even when your old answer scores higher.
 **It never touches your project.** Every sub-agent writes inside `.dobetter/`. Applying the
 winning answer is your call, and it asks first.
 
-## Install (Qoder CLI)
+## Install
+
+```
+npx skills add arm-pz/do-better --skill do-better
+```
+
+Or place it in your Qoder skills directory manually:
 
 ```bash
 git clone https://github.com/arm-pz/do-better.git
