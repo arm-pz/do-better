@@ -1,13 +1,15 @@
 ---
 name: do-better
 description: >-
-  Make 100 versions of the assistant fight to the death over one task. Spins up N
-  sub-agents (default 100, --quick for 16), gives every one the exact same
-  task plus a different strategy card (reasoning mode, workflow, strategy),
-  then runs a single-elimination bracket: they attack each other's solutions,
-  defend and revise, and a judge scores every match on a written rubric until
-  one solution survives. Use when the user is not satisfied with an answer,
-  calls it a bad answer, says try again or do better, says "arena", or asks to make them compete.
+  Make 100 versions of the assistant fight to the death over one task. Spins up
+  N sub-agents (default 100, --quick for 16), gives every one the exact same
+  task plus a different strategy card (reasoning mode, workflow, strategy), then
+  runs a single-elimination bracket: they attack each other's solutions, defend
+  and revise, and a judge scores every match on a written rubric until one
+  solution survives. Use when the user is not satisfied with an answer, calls it
+  a bad answer, says try again or do better, says "arena", or asks to make them
+  compete. Not for stress-testing a decision or plan before building it (use
+  crash-test).
 version: 1.0.0
 argument-hint: "[--agents N | --quick] [--seed S] <task>"
 ---
